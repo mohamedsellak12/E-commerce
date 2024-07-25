@@ -32,11 +32,12 @@ function Login() {
             })
             setEmail("")
             setpasword("")
-            navigate("/")
+            navigate("/user")
         }catch(e){
             console.log('the error is',e)
         }
     }
+    console.log(user)
   return (
     <div>
         <h1>Login</h1>
